@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div class="home-header">
     <div class="text">
       <h2>Hello there,</h2>
       <h1>I'm Deathvenom</h1>
@@ -12,7 +12,7 @@
 <style lang="scss">
 @import "src/assets/variables";
 
-.header {
+.home-header {
   background-color: $mid-grey;
   margin: 100px 0;
   display: flex;
