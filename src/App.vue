@@ -4,16 +4,20 @@
 </template>
 
 <style lang="scss">
+@import "assets/variables";
+
 body {
   padding: 0;
   margin: 0;
+  background-color: $mid-grey;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: $light-grey;
+  background-color: $mid-grey;
 }
 
 #nav {

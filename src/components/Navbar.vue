@@ -1,6 +1,8 @@
 <template>
   <nav>
     <NavbarTab name="home.html" to="/" />
+    <NavbarTab name="projects.html" to="/projects" />
+    <NavbarTab name="hello.html" to="/hello" />
   </nav>
 </template>
 
