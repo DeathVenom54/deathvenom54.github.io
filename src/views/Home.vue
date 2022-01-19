@@ -1,16 +1,18 @@
 <template>
   <div class="home">
     <HomeHeader />
+    <Socials />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import HomeHeader from "@/components/HomeHeader.vue";
+import Socials from "@/components/Socials.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { HomeHeader },
+  components: { Socials, HomeHeader },
 });
 </script>
 

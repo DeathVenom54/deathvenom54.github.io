@@ -14,7 +14,7 @@
 
 .home-header {
   background-color: $mid-grey;
-  margin: 100px 0;
+  margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
