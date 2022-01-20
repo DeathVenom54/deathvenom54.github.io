@@ -1,9 +1,29 @@
 <template>
   <div class="home">
     <HomeHeader />
-    <Socials />
+    <Socials
+      :data="[
+        {
+          text: 'Projects',
+          url: '/projects',
+          icon: '/icons/project.svg',
+        },
+        {
+          text: 'Contact me',
+          url: '/contact',
+          icon: '/icons/contact.svg',
+        },
+      ]"
+    />
   </div>
 </template>
+<!--<SocialLink text="Projects" url="/projects" icon="/icons/project.svg" />-->
+<!--<SocialLink-->
+<!--    text="Discord"-->
+<!--    url="https://discord.gg/qJnrRvt7wW"-->
+<!--    icon="/icons/discord.svg"-->
+<!--    new-tab-->
+<!--/>-->
 
 <script lang="ts">
 import { defineComponent } from "vue";
