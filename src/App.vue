@@ -39,5 +39,10 @@ import { defineComponent } from "vue";
 import Navbar from "@/components/Navbar.vue";
 export default defineComponent({
   components: { Navbar },
+  watch: {
+    $route(to) {
+      document.title = to.meta.title || "Deathvenom's Website";
+    },
+  },
 });
 </script>
