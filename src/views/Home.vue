@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <Template name="home">
     <HomeHeader />
     <Socials
       :data="[
@@ -15,7 +15,7 @@
         },
       ]"
     />
-  </div>
+  </Template>
 </template>
 <!--<SocialLink text="Projects" url="/projects" icon="/icons/project.svg" />-->
 <!--<SocialLink-->
@@ -29,20 +29,10 @@
 import { defineComponent } from "vue";
 import HomeHeader from "@/components/HomeHeader.vue";
 import Socials from "@/components/Socials.vue";
+import Template from "@/components/Template.vue";
 
 export default defineComponent({
   name: "Home",
-  components: { Socials, HomeHeader },
+  components: { Template, Socials, HomeHeader },
 });
 </script>
-
-<style lang="scss">
-@import "src/assets/variables";
-
-.home {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  background-color: $dark-grey;
-}
-</style>

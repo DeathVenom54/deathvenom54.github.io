@@ -11,6 +11,7 @@
 
 <style lang="scss">
 @import "src/assets/variables";
+@import "include-media";
 
 .home-header {
   background-color: $mid-grey;
@@ -18,6 +19,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10px 20px;
 
   .text {
     h2 {
@@ -47,10 +49,33 @@
   .avatar {
     width: $avatar-size;
     height: $avatar-size;
+    background-size: $avatar-size;
     background: url("../assets/Avatar.jpg");
     border-radius: 38% 62% 28% 72% / 52% 36% 64% 48%;
   }
 }
+
+@include media(">phone", "<tablet") {
+  .home-header {
+    flex-direction: column;
+    $avatar-size: 150px;
+    .avatar {
+      margin-top: 40px;
+      width: $avatar-size;
+      height: $avatar-size;
+      background-size: $avatar-size;
+    }
+    .text h2 {
+      font-size: 26px;
+    }
+    .text h1 {
+      font-size: 36px;
+    }
+    .text h3 {
+      font-size: 24px;
+    }
+  }
+} ;
 </style>
 <script lang="ts">
 import Cursor from "@/components/Cursor.vue";
