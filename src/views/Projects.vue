@@ -1,5 +1,5 @@
 <template>
-  <Template name="projects">
+  <Template name="projects" max-width="1300px">
     <h1>Some of my projects:</h1>
     <div class="project-holder">
       <Project
@@ -15,6 +15,7 @@
         icon="fab fa-npm fa-3x"
         link="https://npmjs.com/package/djs-marshal"
         color="#ff6161"
+        repository="https://github.com/DeathVenom54/djs-marshal"
         >A simple slash command and message component handler for
         discord.js</Project
       >
@@ -23,6 +24,7 @@
         icon="fab fa-npm fa-3x"
         link="https://npmjs.com/package/djs-marshal-utilss"
         color="#ff6161"
+        repository="https://github.com/DeathVenom54/djs-marshal-utils"
         >Utility methods for making bots more conveniently</Project
       >
       <Project
@@ -30,7 +32,16 @@
         icon="fab fa-npm fa-3x"
         link="https://npmjs.com/package/djs-marshal-utilss"
         color="#ff6161"
+        repository="https://github.com/DeathVenom54/itch-scraper"
         >Scrape data about games on itch.io</Project
+      >
+      <Project
+        name="bot-poster"
+        icon="fab fa-github fa-3x"
+        link="https://github.com/DeathVenom54/bot-poster"
+        color="#03b1fc"
+        repository="https://github.com/DeathVenom54/bot-poster"
+        >Easily post a message on Discord as a bot</Project
       >
     </div>
   </Template>
@@ -55,5 +66,7 @@ export default {
 .project-holder {
   margin-top: 40px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div :class="[name, 'template']">
+  <div :class="[name, 'template']" :style="{ maxWidth }">
     <slot></slot>
   </div>
 </template>
@@ -11,6 +11,10 @@ export default defineComponent({
   name: "Template",
   props: {
     name: String,
+    maxWidth: {
+      type: String,
+      default: "1000px",
+    },
   },
 });
 </script>
