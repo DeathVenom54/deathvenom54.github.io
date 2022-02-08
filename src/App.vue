@@ -29,6 +29,12 @@ export default defineComponent({
   watch: {
     $route(to) {
       document.title = to.meta.title || "Deathvenom's Website";
+
+      to.meta.metaTags.forEach((tag: { name: string; content: string }) => {
+        document
+          .querySelector(`meta[name="${tag.name}"]`)
+          ?.setAttribute("content", tag.content);
+      });
     },
   },
 });
