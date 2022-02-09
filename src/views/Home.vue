@@ -6,12 +6,12 @@
         {
           text: 'Projects',
           url: '/projects',
-          icon: '/icons/project.svg',
+          icon: 'fas fa-code fa-2x',
         },
         {
           text: 'Contact me',
           url: '/contact',
-          icon: '/icons/contact.svg',
+          icon: 'fas fa-comment-dots fa-2x',
         },
       ]"
     />

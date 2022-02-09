@@ -1,20 +1,10 @@
 <template>
-  <router-link
-    v-if="url.startsWith('/')"
-    :to="url"
-    class="social-link"
-    :target="newTab ? '_blank' : '_self'"
-  >
-    <img :src="icon" :alt="text + ' logo'" class="icon" />
+  <router-link v-if="url.startsWith('/')" :to="url" class="social-link">
+    <i :class="icon" />
     <span>{{ text }}</span>
   </router-link>
-  <a
-    v-else
-    :href="url"
-    class="social-link"
-    :target="newTab ? '_blank' : '_self'"
-  >
-    <img :src="icon" :alt="text + ' logo'" class="icon" />
+  <a v-else :href="url" class="social-link" target="_blank">
+    <i :class="icon"></i>
     <span>{{ text }}</span>
   </a>
 </template>
@@ -28,7 +18,6 @@ export default defineComponent({
     text: String,
     url: String,
     icon: String,
-    newTab: Boolean,
   },
 });
 </script>
@@ -52,10 +41,11 @@ $icon-size: 40px;
   align-items: center;
   background-color: $dark-grey;
 
-  img {
+  svg {
     width: $icon-size;
     height: $icon-size;
     margin-right: 10px;
+    color: $light-grey;
   }
 
   span {

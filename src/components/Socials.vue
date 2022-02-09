@@ -1,12 +1,11 @@
 <template>
   <div class="socials">
     <SocialLink
-      v-for="link in data"
-      :key="link.name"
+      v-for="(link, i) in data"
+      :key="i"
       :text="link.text"
       :url="link.url"
       :icon="link.icon"
-      :new-tab="!!link.newTab"
     />
   </div>
 </template>
