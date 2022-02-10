@@ -28,6 +28,7 @@ $circle-dimensions: 10px;
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-weight: 400;
 
   border-top-left-radius: 10px;
   border-top-right-radius: 3px;
@@ -51,6 +52,7 @@ $circle-dimensions: 10px;
   &:hover {
     span {
       color: white;
+      font-weight: 500;
       transition: 150ms ease-in-out;
     }
   }
@@ -60,10 +62,11 @@ $circle-dimensions: 10px;
   }
 
   &.router-link-active {
-    background-color: $mid-grey;
+    background-color: #305c6c;
 
     span {
       color: white;
+      font-weight: 500;
     }
 
     .navbar-tab-circle {

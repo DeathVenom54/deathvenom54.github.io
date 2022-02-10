@@ -7,6 +7,20 @@
     </div>
     <span class="avatar" />
   </div>
+  <div class="buttons">
+    <BigButton
+      to="/projects"
+      label="My Projects"
+      icon="fas fa-code fa-lg"
+      color="blue"
+    />
+    <BigButton
+      to="/contact"
+      label="Contact Me"
+      icon="fas fa-comment-dots fa-lg"
+      color="green"
+    />
+  </div>
 </template>
 
 <style lang="scss">
@@ -14,12 +28,15 @@
 @import "include-media";
 
 .home-header {
-  background-color: $mid-grey;
+  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.3);
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 20px;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 
   .text {
     h2 {
@@ -75,14 +92,21 @@
       font-size: 24px;
     }
   }
-} ;
+}
+.buttons {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 </style>
 <script lang="ts">
 import Cursor from "@/components/Cursor.vue";
 import { defineComponent, ref } from "vue";
+import BigButton from "@/components/BigButton.vue";
 
 export default defineComponent({
-  components: { Cursor },
+  components: { Cursor, BigButton },
   setup() {
     const names = ["Deathvenom", "Dave"];
     const name = ref<string>(names[0]);

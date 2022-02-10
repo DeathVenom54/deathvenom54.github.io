@@ -48,7 +48,8 @@ export default defineComponent({
 @import "src/assets/variables";
 
 .project {
-  background-color: $dark-grey;
+  background-color: $darkish-grey;
+  cursor: default;
   display: inline-flex;
   margin: 15px;
   box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px;
@@ -131,7 +132,7 @@ export default defineComponent({
 
   p {
     font-size: 20px;
-    color: #a19ea2;
+    color: #b5b8ba;
     text-align: center;
     margin: 10px 0 15px;
   }

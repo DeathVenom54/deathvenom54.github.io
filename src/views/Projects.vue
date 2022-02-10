@@ -37,7 +37,7 @@
       >
       <Project
         name="bot-poster"
-        icon="fab fa-github fa-3x"
+        icon="fab fa-github fa-2x"
         color="#ad91ff"
         repository="https://github.com/DeathVenom54/bot-poster"
         >A program to easily post a message on Discord as a bot</Project

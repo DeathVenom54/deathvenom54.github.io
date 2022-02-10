@@ -9,7 +9,7 @@ const routes: Array<RouteRecordRaw> = [
     name: "Home",
     component: Home,
     meta: {
-      title: "Home | Deathvenom's Website",
+      title: "Deathvenom's Portfolio",
       metaTags: [
         {
           name: "description",
@@ -27,7 +27,7 @@ const routes: Array<RouteRecordRaw> = [
     name: "Projects",
     component: Projects,
     meta: {
-      title: "Projects | Deathvenom's Website",
+      title: "Projects / Deathvenom's Portfolio",
       metaTags: [
         {
           name: "description",
@@ -45,7 +45,7 @@ const routes: Array<RouteRecordRaw> = [
     name: "Contact",
     component: Contact,
     meta: {
-      title: "Contact | Deathvenom's Website",
+      title: "Contact / Deathvenom's Portfolio",
       metaTags: [
         {
           name: "description",

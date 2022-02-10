@@ -27,6 +27,6 @@ export default defineComponent({
   max-width: 1000px;
   margin: 0 auto;
   padding: 0;
-  background-color: $mid-grey;
+  background: transparent;
 }
 </style>
