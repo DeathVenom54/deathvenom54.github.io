@@ -7,7 +7,7 @@
     </div>
     <span class="avatar" />
   </div>
-  <div class="buttons">
+  <div class="hh-buttons">
     <BigButton
       to="/projects"
       label="My Projects"
@@ -93,7 +93,7 @@
     }
   }
 }
-.buttons {
+.hh-buttons {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 15px;
   border-bottom-left-radius: 15px;
