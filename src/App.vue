@@ -10,7 +10,6 @@ body {
   padding: 0;
   margin: 0;
   background: $back-gradient;
-  background-size: 100% 100%;
 }
 
 *::selection {
@@ -33,21 +32,22 @@ body {
 
 h1 {
   color: #eee9ef;
-  #app {
-    font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: $light-grey;
-    background: inherit;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
   font-size: 38px;
   font-weight: 500;
   margin-top: 60px;
+}
+
+#app {
+  font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $light-grey;
+  background: inherit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 p {

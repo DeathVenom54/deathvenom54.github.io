@@ -23,7 +23,6 @@ export default defineComponent({
 $circle-dimensions: 10px;
 
 .navbar-tab {
-  background-color: $dark-grey;
   padding: 10px 15px;
   display: flex;
   align-items: center;
@@ -31,7 +30,7 @@ $circle-dimensions: 10px;
   font-weight: 400;
 
   border-top-left-radius: 10px;
-  border-top-right-radius: 3px;
+  border-top-right-radius: 10px;
 
   .navbar-tab-link {
     color: $light-grey;
@@ -62,7 +61,7 @@ $circle-dimensions: 10px;
   }
 
   &.router-link-active {
-    background-color: #305c6c;
+    background: $back-gradient fixed;
 
     span {
       color: white;
