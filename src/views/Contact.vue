@@ -1,7 +1,10 @@
 <template>
   <Template name="Contact">
     <h1>Contact</h1>
-    <p>Guess what? I haven't written this page yet.</p>
+    <p>
+      Looks like i haven't written this page yet. If you see this, remind me to
+      stop slacking.
+    </p>
   </Template>
 </template>
 
@@ -15,4 +18,14 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.contact {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 0;
+  }
+}
+</style>
