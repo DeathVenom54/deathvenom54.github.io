@@ -59,7 +59,8 @@ export default {
   color: #eee9ef;
   font-size: 38px;
   font-weight: 500;
-  margin-top: 60px;
+  margin: 60px 15px 0;
+  text-align: center;
 }
 
 .project-holder {
@@ -67,5 +68,6 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 </style>

@@ -1,6 +1,8 @@
 <template>
-  <div :class="[name, 'template']" :style="{ maxWidth }">
-    <slot></slot>
+  <div class="template-outer">
+    <div :class="[name, 'template']" :style="{ maxWidth }">
+      <slot></slot>
+    </div>
   </div>
 </template>
 
@@ -22,6 +24,10 @@ export default defineComponent({
 <style lang="scss">
 @import "src/assets/variables";
 @import "include-media";
+
+.template-outer {
+  margin: 10px 20px;
+}
 
 .template {
   max-width: 1000px;
