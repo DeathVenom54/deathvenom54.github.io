@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
 import Projects from "../views/Projects.vue";
+import Contact from "../views/Contact.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -35,6 +36,24 @@ const routes: Array<RouteRecordRaw> = [
         {
           name: "og:description",
           content: "Projects by Deathvenom",
+        },
+      ],
+    },
+  },
+  {
+    path: "/contact",
+    name: "Contact",
+    component: Contact,
+    meta: {
+      title: "Contact | Deathvenom's Website",
+      metaTags: [
+        {
+          name: "description",
+          content: "How you can contact Deathvenom",
+        },
+        {
+          name: "og:description",
+          content: "How you can contact Deathvenom",
         },
       ],
     },

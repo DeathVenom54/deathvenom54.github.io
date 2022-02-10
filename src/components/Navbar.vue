@@ -2,6 +2,7 @@
   <nav>
     <NavbarTab name="home.html" to="/" />
     <NavbarTab name="projects.html" to="/projects" />
+    <NavbarTab name="contact.html" to="/contact" />
   </nav>
 </template>
 
