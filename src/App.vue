@@ -19,6 +19,17 @@ body {
   color: $light-grey;
   background-color: $mid-grey;
 }
+
+h1 {
+  color: #eee9ef;
+  font-size: 38px;
+  font-weight: 500;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 24px;
+}
 </style>
 
 <script lang="ts">
