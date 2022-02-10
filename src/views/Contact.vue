@@ -2,7 +2,7 @@
   <Template name="Contact">
     <h1>Contact</h1>
     <p>
-      Looks like i haven't written this page yet. If you see this, remind me to
+      Looks like I haven't written this page yet. If you see this, remind me to
       stop slacking.
     </p>
   </Template>
