@@ -1,13 +1,10 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import Home from "../views/Home.vue";
-import Projects from "../views/Projects.vue";
-import Contact from "../views/Contact.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "Home",
-    component: Home,
+    component: () => import("@/views/HomePage.vue"),
     meta: {
       title: "Deathvenom's Portfolio",
       metaTags: [
@@ -25,7 +22,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/projects",
     name: "Projects",
-    component: Projects,
+    component: () => import("@/views/ProjectsPage.vue"),
     meta: {
       title: "Projects / Deathvenom's Portfolio",
       metaTags: [
@@ -43,7 +40,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/contact",
     name: "Contact",
-    component: Contact,
+    component: () => import("@/views/ContactPage.vue"),
     meta: {
       title: "Contact / Deathvenom's Portfolio",
       metaTags: [
