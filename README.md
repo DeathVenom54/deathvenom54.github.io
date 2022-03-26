@@ -1,24 +1,18 @@
-# portfolio
+# Deathvenom's Portfolio
 
-## Project setup
-```
-yarn install
-```
+Created using Vue (Vite)
 
-### Compiles and hot-reloads for development
+### Compile and hot-reload for development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Compile and minify for production
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### Lint and fix files
 ```
 yarn lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
