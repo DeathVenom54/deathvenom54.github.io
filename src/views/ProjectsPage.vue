@@ -47,8 +47,8 @@
 </template>
 
 <script>
-import Template from "@/components/Template";
-import Project from "@/components/Project";
+import Template from "@/components/ViewTemplate.vue";
+import Project from "@/components/ProjectCard.vue";
 export default {
   components: { Project, Template },
 };

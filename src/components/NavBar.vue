@@ -67,7 +67,7 @@ import NavbarTab from "@/components/NavbarTab.vue";
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Navbar",
+  name: "NavBar",
   components: { NavbarTab },
 });
 </script>

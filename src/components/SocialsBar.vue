@@ -15,7 +15,7 @@ import { defineComponent } from "vue";
 import SocialLink from "@/components/SocialLink.vue";
 
 export default defineComponent({
-  name: "Socials",
+  name: "SocialsBar",
   components: { SocialLink },
   props: {
     data: Array,

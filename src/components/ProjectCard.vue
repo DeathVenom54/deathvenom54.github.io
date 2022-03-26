@@ -29,7 +29,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Project",
+  name: "ProjectCard",
   props: {
     name: String,
     icon: String,

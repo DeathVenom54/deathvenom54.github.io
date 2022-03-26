@@ -101,7 +101,7 @@
 }
 </style>
 <script lang="ts">
-import Cursor from "@/components/Cursor.vue";
+import Cursor from "@/components/AnimatedCursor.vue";
 import { defineComponent, ref } from "vue";
 import BigButton from "@/components/BigButton.vue";
 
