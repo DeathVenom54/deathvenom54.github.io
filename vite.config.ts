@@ -26,7 +26,7 @@ export default defineConfig({
     envCompatible(),
     createHtmlPlugin({
       minify: true,
-      entry: "src/main.ts",
+      entry: "/src/main.ts",
       inject: {
         data: {
           title: "Deathvenom's Portfolio",
