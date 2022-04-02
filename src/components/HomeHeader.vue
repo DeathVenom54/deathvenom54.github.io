@@ -8,18 +8,8 @@
     <span class="avatar" />
   </div>
   <div class="hh-buttons">
-    <BigButton
-      to="/projects"
-      label="My Projects"
-      icon="fas fa-code fa-lg"
-      color="blue"
-    />
-    <BigButton
-      to="/contact"
-      label="Contact Me"
-      icon="fas fa-comment-dots fa-lg"
-      color="green"
-    />
+    <BigButton to="/projects" label="My Projects" color="blue" />
+    <BigButton to="/contact" label="Contact Me" color="green" />
   </div>
 </template>
 

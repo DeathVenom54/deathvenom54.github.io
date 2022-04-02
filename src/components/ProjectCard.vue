@@ -8,17 +8,14 @@
 
     <div class="buttons">
       <a :href="website" class="website" v-if="website" target="_blank">
-        <i class="fas fa-globe-americas"></i>
         <span>Website</span>
       </a>
 
       <a :href="npm" class="npm" v-if="npm" target="_blank">
-        <i class="fab fa-npm fa-lg"></i>
         <span>Package</span>
       </a>
 
       <a :href="repository" class="repo" v-if="repository" target="_blank">
-        <i class="fab fa-github"></i>
         <span>Repository</span>
       </a>
     </div>
