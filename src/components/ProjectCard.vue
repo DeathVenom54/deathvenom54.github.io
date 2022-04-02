@@ -115,13 +115,13 @@ export default defineComponent({
 
       &:hover {
         background-color: $light-grey;
-        transition: 200ms ease-in-out;
+        transition: 150ms ease-in-out;
 
         span,
         svg {
           color: $dark-grey;
           font-weight: 700;
-          transition: 200ms ease-in-out;
+          transition: 150ms ease-in-out;
         }
       }
     }
@@ -138,11 +138,11 @@ export default defineComponent({
     border-color: $light-grey;
     box-shadow: none;
     transform: scale(1.02, 1.02);
-    transition: 200ms ease-in-out;
+    transition: 150ms ease-in-out;
 
     p {
       color: $light-grey;
-      transition: 300ms ease-in-out;
+      transition: 150ms ease-in-out;
     }
   }
 }
