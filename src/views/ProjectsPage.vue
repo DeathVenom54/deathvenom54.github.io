@@ -28,19 +28,26 @@
         >Utility methods for making bots more conveniently</Project
       >
       <Project
+        name="bot-poster"
+        icon="fab fa-github fa-2x"
+        color="#dddddd"
+        repository="https://github.com/DeathVenom54/bot-poster"
+        >A program to easily post a message on Discord as a bot</Project
+      >
+      <Project
+        name="github-deploy-inator"
+        icon="fab fa-github fa-2x"
+        color="#dddddd"
+        repository="https://github.com/DeathVenom54/bot-poster"
+        >An app to run code, triggered by GitHub webhooks</Project
+      >
+      <Project
         name="itch-scraper"
         icon="fab fa-npm fa-3x"
         color="#ff6161"
         npm="https://npmjs.com/package/djs-marshal-utilss"
         repository="https://github.com/DeathVenom54/itch-scraper"
         >A web scraper for data about games on itch.io</Project
-      >
-      <Project
-        name="bot-poster"
-        icon="fab fa-github fa-2x"
-        color="#ad91ff"
-        repository="https://github.com/DeathVenom54/bot-poster"
-        >A program to easily post a message on Discord as a bot</Project
       >
     </div>
   </Template>
